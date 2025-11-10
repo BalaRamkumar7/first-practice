@@ -1,5 +1,3 @@
-"# first-practice"
-hello
-world
-
-hello
+This is the repository of all the assignments for the MIT OpenCourseWare course of Introduction to Computer Science and Programming in Python (6.0001).
+Here is a link to the course: https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/.
+This serves as an alternate to the course I am taking currently at UConn (CSE 1010: Introduction to Computer Science and Engineering).
