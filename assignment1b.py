@@ -12,6 +12,7 @@ while current_savings < (portion_down_payment * total_cost):
     current_savings += ((monthly_salary * portion_saved) + (current_savings*r/12))
     m += 1
     if m % 6 == 0:
-        annual_salary = (annual_salary*semi_annual_raise) + annual_salary
+        annual_salary *= (1 + semi_annual_raise)
+        monthly_salary = annual_salary / 12
 
 print("Number of months:", m)
